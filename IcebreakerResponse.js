@@ -6,5 +6,5 @@ IcebreakerResponse.BatchCreate = function(data){
     return new IcebreakerResponse(userData[0], userData[1])
   })
 
-  
+const emails = ["avi@flatironschool.com", "grace@hopper.com", "alan@xparc.com"]
   let users =IcebreakerResponse.BatchCreate(data);
